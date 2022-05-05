@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 500px;
+    height: 500px;
+
+}
+
+.application {
+    width: 210px;
+    min-height: 260px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid grey;
+    background-color: #EAEAEA;
+    border-radius: 3px;
+    /*min-width: 204px;*/
+}
+
+.inputDisplay {
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 206px;
+    height: 30px;
+    text-align: right;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.formulaDisplay {
+    text-align: right;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+button {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #F4F4F4;
+}
+
+/*button:hover {*/
+/*    background-color: #61dafb;*/
+/*}*/
+button:active {
+    background-color: #CBCBCB ;
+}
+
+.keyboard {
+    display: flex;
+    width: 212px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tested {
+    border: 2px solid green
+}
+
+.notTested {
+    border: 1px solid red
+}
